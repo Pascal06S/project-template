@@ -18,7 +18,7 @@ Follow the installation guide provided [here](https://docs.astral.sh/uv/getting-
 
 Change to your desired workspace and run either one of the following commands in your console to clone the template with cookiecutter as general tool in uv.
 
-`uv tool run cookiecutter [LINK]` or `uvx cookiecutter [LINK]`
+`uv tool run cookiecutter [LINK TO THIS REPO]` or `uvx cookiecutter [LINK TO THIS REPO]`
 
 You will be asked to fill out basic information about your project, including name, description and python version (default available).
 After you entered the information, your custom project folder should have been created in your current directory.
@@ -51,7 +51,7 @@ Now you can run your commands as usual within the created and activated virtuale
 
 **B) Run with uv**
 Alternatively, running your commands with prefix `uv run` automatically runs them within the created venv.
-(*Example:* `uv run which python`)
+(*Example:* `uv run python --version`)
 
 ---
 
