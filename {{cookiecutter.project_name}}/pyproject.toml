@@ -1,0 +1,44 @@
+[project]
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = "{{cookiecutter.description}}"
+readme = "README.md"
+requires-python = "{{cookiecutter.python_version}}"
+dependencies = [
+    "pandas>=2.2.3",
+    "kedro>=0.19.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff==0.6.9",
+    "pre-commit~=3.8"
+]
+
+[tool.kedro]
+package_name = "{{cookiecutter.project_name}}"
+project_name = "{{cookiecutter.project_name}}"
+kedro_init_version = "0.19.9"
+tools = [ "Data Structure",]
+example_pipeline = "False"
+source_dir = "src"
+
+[project.entry-points."kedro.hooks"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E", # pycodestyle
+    "W", # pycodestyle
+    "F", # pyflakes
+    "PL", # pylint
+    "I", # isort
+    "UP", # pyupgrade
+]
+ignore = ["E203", "F403", "F405", "F821"]
+
+[tool.ruff.lint.isort]
+known-third-party = ["kedro"]
