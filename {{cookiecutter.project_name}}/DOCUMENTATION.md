@@ -1,6 +1,6 @@
-# Einführung und Ziele {#section-introduction-and-goals}
+# Einführung und Ziele
 
-## Aufgabenstellung {#_aufgabenstellung}
+## Aufgabenstellung
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 - Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-## Stakeholder {#_stakeholder}
+## Stakeholder
 
 | Rolle                         | Kontakt             | Erwartungshaltung   |
 |-------------------------------|---------------------|---------------------|
@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 | **ZT-Abteilung**               | *Peter Beispielmann*| *\<Erwartung-2>*    |
 
 
-# Qualitätsziele {#_qualit_tsziele}
+# Qualitätsziele
 
 ## 1. Nicht-funktionale Anforderungen
 
@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 In dieser frühen Prototypen-Phase liegt der Fokus auf dem Erreichen der funktionalen Anforderungen.
 Nicht-funktionale Anforderungen werden erst in der nächste Phase relevant.
 
-# Randbedingungen {#section-architecture-constraints}
+# Randbedingungen
 
 ## 3.1 Technologien
 
@@ -102,15 +102,15 @@ Nicht-funktionale Anforderungen werden erst in der nächste Phase relevant.
 
 - At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-# Kontextabgrenzung {#section-system-scope-and-context}
+# Kontextabgrenzung
 
-## Fachlicher Kontext {#_fachlicher_kontext}
+## Fachlicher Kontext
 
 **\<Diagramm und/oder Tabelle>**
 
 **\<optional: Erläuterung der externen fachlichen Schnittstellen>**
 
-## Technischer Kontext {#_technischer_kontext}
+## Technischer Kontext
 
 **\<Diagramm oder Tabelle>**
 
@@ -118,11 +118,11 @@ Nicht-funktionale Anforderungen werden erst in der nächste Phase relevant.
 
 **\<Mapping fachliche auf technische Schnittstellen>**
 
-# Lösungsstrategie {#section-solution-strategy}
+# Lösungsstrategie
 
-# Bausteinsicht {#section-building-block-view}
+# Bausteinsicht
 
-## Whitebox Gesamtsystem {#_whitebox_gesamtsystem}
+## Whitebox Gesamtsystem
 
 ***\<Übersichtsdiagramm>***
 
@@ -138,7 +138,7 @@ Wichtige Schnittstellen
 
 :   *\<Beschreibung wichtiger Schnittstellen>*
 
-### \<Name Blackbox 1> {#__name_blackbox_1}
+### \<Name Blackbox 1>
 
 *\<Zweck/Verantwortung>*
 
@@ -152,70 +152,70 @@ Wichtige Schnittstellen
 
 *\<(optional) Offene Punkte/Probleme/Risiken>*
 
-### \<Name Blackbox 2> {#__name_blackbox_2}
+### \<Name Blackbox 2>
 
 *\<Blackbox-Template>*
 
-### \<Name Blackbox n> {#__name_blackbox_n}
+### \<Name Blackbox n>
 
 *\<Blackbox-Template>*
 
-### \<Name Schnittstelle 1> {#__name_schnittstelle_1}
+### \<Name Schnittstelle 1>
 
 ...
 
-### \<Name Schnittstelle m> {#__name_schnittstelle_m}
+### \<Name Schnittstelle m>
 
-## Ebene 2 {#_ebene_2}
+## Ebene 2
 
-### Whitebox *\<Baustein 1>* {#_whitebox_emphasis_baustein_1_emphasis}
+### Whitebox *\<Baustein 1>*
 
 *\<Whitebox-Template>*
 
-### Whitebox *\<Baustein 2>* {#_whitebox_emphasis_baustein_2_emphasis}
+### Whitebox *\<Baustein 2>*
 
 *\<Whitebox-Template>*
 
 ...
 
-### Whitebox *\<Baustein m>* {#_whitebox_emphasis_baustein_m_emphasis}
+### Whitebox *\<Baustein m>*
 
 *\<Whitebox-Template>*
 
-## Ebene 3 {#_ebene_3}
+## Ebene 3
 
-### Whitebox \<\_Baustein x.1\_\> {#_whitebox_baustein_x_1}
-
-*\<Whitebox-Template>*
-
-### Whitebox \<\_Baustein x.2\_\> {#_whitebox_baustein_x_2}
+### Whitebox \<\_Baustein x.1\_\>
 
 *\<Whitebox-Template>*
 
-### Whitebox \<\_Baustein y.1\_\> {#_whitebox_baustein_y_1}
+### Whitebox \<\_Baustein x.2\_\>
 
 *\<Whitebox-Template>*
 
-# Laufzeitsicht {#section-runtime-view}
+### Whitebox \<\_Baustein y.1\_\>
 
-## *\<Bezeichnung Laufzeitszenario 1>* {#__emphasis_bezeichnung_laufzeitszenario_1_emphasis}
+*\<Whitebox-Template>*
+
+# Laufzeitsicht
+
+## *\<Bezeichnung Laufzeitszenario 1>*
 
 -   \<hier Laufzeitdiagramm oder Ablaufbeschreibung einfügen>
 
 -   \<hier Besonderheiten bei dem Zusammenspiel der Bausteine in diesem
     Szenario erläutern>
 
-## *\<Bezeichnung Laufzeitszenario 2>* {#__emphasis_bezeichnung_laufzeitszenario_2_emphasis}
+## *\<Bezeichnung Laufzeitszenario 2>*
 
 ...
 
-## *\<Bezeichnung Laufzeitszenario n>* {#__emphasis_bezeichnung_laufzeitszenario_n_emphasis}
+## *\<Bezeichnung Laufzeitszenario n>*
 
 ...
 
-# Verteilungssicht {#section-deployment-view}
+# Verteilungssicht
 
-## Infrastruktur Ebene 1 {#_infrastruktur_ebene_1}
+## Infrastruktur Ebene 1
 
 ***\<Übersichtsdiagramm>***
 
@@ -231,54 +231,54 @@ Zuordnung von Bausteinen zu Infrastruktur
 
 :   *\<Beschreibung der Zuordnung>*
 
-## Infrastruktur Ebene 2 {#_infrastruktur_ebene_2}
+## Infrastruktur Ebene 2
 
-### *\<Infrastrukturelement 1>* {#__emphasis_infrastrukturelement_1_emphasis}
+### *\<Infrastrukturelement 1>*
 
 *\<Diagramm + Erläuterungen>*
 
-### *\<Infrastrukturelement 2>* {#__emphasis_infrastrukturelement_2_emphasis}
+### *\<Infrastrukturelement 2>*
 
 *\<Diagramm + Erläuterungen>*
 
 ...
 
-### *\<Infrastrukturelement n>* {#__emphasis_infrastrukturelement_n_emphasis}
+### *\<Infrastrukturelement n>*
 
 *\<Diagramm + Erläuterungen>*
 
-# Querschnittliche Konzepte {#section-concepts}
+# Querschnittliche Konzepte
 
-## *\<Konzept 1>* {#__emphasis_konzept_1_emphasis}
+## *\<Konzept 1>*
 
 *\<Erklärung>*
 
-## *\<Konzept 2>* {#__emphasis_konzept_2_emphasis}
+## *\<Konzept 2>*
 
 *\<Erklärung>*
 
 ...
 
-## *\<Konzept n>* {#__emphasis_konzept_n_emphasis}
+## *\<Konzept n>*
 
 *\<Erklärung>*
 
-# Architekturentscheidungen {#section-design-decisions}
+# Architekturentscheidungen
 
-# Modellierungsentscheidungen {#section-model-decisions}
+# Modellierungsentscheidungen
 
 - Warum haben wir uns für diese Modellansätze entschieden?
 - Welche haben wir erwägt und aus welchen Gründen nicht verfolgt?
 - Welche Daten haben wir einbezogen, welche nicht, und warum?
 
-# Risiken und technische Schulden {#section-technical-risks}
+# Risiken und technische Schulden
 
-# Glossar {#section-glossary}
+# Glossar
 
 | Begriff               | Definition                                    |
 |-----------------------|-----------------------------------------------|
 | *\<Begriff-1>*        | *\<Definition-1>*                             |
 | *\<Begriff-2>*        | *\<Definition-2>*                             |
 
-# Lizenz {#license}
+# Lizenz
 Based on the arc42 template, by Dr. Peter Hruschka, Dr. Gernot Starke and contributiors. Siehe <https://arc42.org>
