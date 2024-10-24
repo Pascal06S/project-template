@@ -12,6 +12,8 @@ Follow the installation guide provided [here](https://docs.astral.sh/uv/getting-
 *Linux*
 `curl -LsSf https://astral.sh/uv/install.sh | sh`
 
+---
+
 ### 2) Clone template with cookiecutter
 
 Change to your desired workspace and run either one of the following commands in your console to clone the template with cookiecutter as general tool in uv.
@@ -20,6 +22,8 @@ Change to your desired workspace and run either one of the following commands in
 
 You will be asked to fill out basic information about your project, including name, description and python version.
 After you entered the information, your custom project folder should have been created in your current directory.
+
+---
 
 ### 3) Sync dependencies
 
@@ -32,6 +36,8 @@ To install all pre-defined dependencies (pandas, numpy, kedro, ...) run the foll
 `uv sync`
 
 This command automatically creates a venv in `./venv`.
+
+---
 
 ### 4) Running your project
 
@@ -46,6 +52,8 @@ Now you can run your commands as usual within the created and activated virtuale
 **B) Run with uv**
 Alternatively, running your commands with prefix `uv run` automatically runs them within the created venv.
 (*Example:* `uv run which python`)
+
+---
 
 ### 5) Dependency management
 Dependencies can be easily installed and removed using uv. Run the following commands from either within or outside the venv *(when outside, keep in mind to run them within the project folder)*.
