@@ -18,7 +18,7 @@ Change to your desired workspace and run either one of the following commands in
 
 `uv tool run cookiecutter [LINK]` or `uvx cookiecutter [LINK]`
 
-You will be asked to fill out basic information about your project, including name, description and python version.
+You will be asked to fill out basic information about your project, including name, description and python version (default available).
 After you entered the information, your custom project folder should have been created in your current directory.
 
 ### 3) Sync dependencies
